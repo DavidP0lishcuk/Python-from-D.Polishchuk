@@ -1,3 +1,3 @@
-print("Hello world")
-print("Yeap")
-print("Noap")
+print("1")
+print("2")
+print("3")
