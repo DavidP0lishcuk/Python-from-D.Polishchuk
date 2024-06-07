@@ -9,6 +9,6 @@ while True:
   else:
       break
 
-lis3 = lis1+lis2
+lis1 = lis1+lis2
 
-print(lis3)
+print(lis1)
