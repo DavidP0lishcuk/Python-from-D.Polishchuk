@@ -1,4 +1,4 @@
-user_case = "999"
+user_case = input("Some number:")
 
 result = 10
 
