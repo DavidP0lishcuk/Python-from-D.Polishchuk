@@ -6,10 +6,11 @@ def correct_sentence(sentences: str) -> str:
     sentences = ". ".join(sentences)
     sentences = sentences.strip()
 
-    if not sentences[-1] == ".":
+    if sentences[-1] != ".":
         sentences = sentences + "."
 
     return sentences
+
 
 assert correct_sentence("greetings, friends") == "Greetings, friends.", 'Test1'
 assert correct_sentence("hello") == "Hello.", 'Test2'
